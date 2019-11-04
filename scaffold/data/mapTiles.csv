@@ -1,0 +1,54 @@
+CountryAbbr,CountryName,HexRow,HexCol,Continent
+us,USA,1,7,NA
+sv,El Salvador,0,5,NA
+cr,Costa Rica,1,4,NA
+hn,Honduras,1,5,NA
+gt,Guatemala,1,6,NA
+ca,Canada,0,7,NA
+mx,Mexico,0,6,NA
+pa,Panama,2,3,NA
+do,Domin. Rep.,2,5,NA
+tr,Turkey,11,2,EU
+ec,Ecudor,2,2,SA
+ar,Argentina,1,0,SA
+cl,Chile,2,0,SA
+br,Brazil,3,2,SA
+pe,Peru,1,2,SA
+bo,Bolivia,2,2,SA
+uy,Uruguay,2,1,SA
+co,Columbia,1,3,SA
+py,Paraguay,1,1,SA
+gb,UK,5,5,EU
+fr,France,6,4,EU
+fi,Finland,11,7,EU
+no,Norway,9,7,EU
+it,Italy,7,2,EU
+lt,Lithuania,10,4,EU
+ee,Estonia,11,6,EU
+de,Germany,8,4,EU
+ch,Switzerland,8,3,EU
+hu,Hungary,10,2,EU
+be,Belgium,7,4,EU
+dk,Denmark,8,5,EU
+pl,Poland,9,5,EU
+at,Austria,9,3,EU
+pt,Portugal,5,3,EU
+se,Sweden,10,7,EU
+is,Iceland,4,6,EU
+es,Spain,6,3,EU
+cz,Czech Rep.,9,4,EU
+ie,Ireland,4,4,EU
+nl,Netherlands,7,5,EU
+sk,Slovakia,10,3,EU
+lu,Luxembourg,7,3,EU
+lv,Latvia,11,5,EU
+gr,Greece,10,1,EU
+ph,Philippines,14,3,AS
+tw,Taiwan,13,3,AS
+jp,Japan,14,5,AS
+my,Malaysia,13,4,AS
+sg,Singapore,12,3,AS
+id,Indonesia,14,2,AS
+hk,Hong Kong,14,4,AS
+nz,New Zealand,14,0,AU
+au,Australia,13,0,AU

@@ -1,0 +1,53 @@
+\documentclass{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{ amssymb }
+
+ \begin{document}
+\title{CMSC 23900: Project 2 Writeup}
+\author{Brendan Sanderson, Ruben Abbou}
+\maketitle
+
+\section{Questions}
+\textit{What is/are the question(s)? A question is a question about the world which generated your data. Questions end with question marks. Questions that essentially rephrase "what's in my data?" don't count.} \\
+
+The main question of our visualization is "How does the most streamed song on Spotify vary throughout world on a given date in 2017?" \\
+
+However, there are also plenty of smaller questions that our visualization can also answer:
+\begin{itemize}
+\item What was the most streamed song on January 1st, 2017 in Asia?
+\item What is the most streamed song in the world on May 28th, 2017?
+\item What is the top 10 most listened song in the world on New Years Eve?
+\item How long did Despacito stay on the top of the charts?
+\item How do musical tastes in Asian countries differ from Europe?
+\item Do Latino American listen to different types of music than the rest of the world?
+\item Is there any time when almost all of the countries had the same most streamed song?
+\end{itemize}
+
+\section{Why is this a good design?}
+\textit{Why is this a good design to answer your question(s)? Include a list (bullet points ok) of ways your vis is dynamic and/or interactive, and indicate whether or how each one helps answer your question(s).}
+
+\begin{itemize}
+\item The Hexmap allows us to display a world map with every song on the top of each country, but also makes all countries the same size
+\item Each continent has its own color in order to differentiate music trends per continent and these colors are qualitative.
+\item The album covers allows us to learn very quickly what song was at the top of the charts for each country and continent.
+\item The slider allows us to change dates in a one year range from January 1st, 2017 to January 1st, 2018 easily.
+\item By clicking on each country, we can see the top 10 songs in any given country
+\item A "global" element at the bottom of the map shows the world's most streamed songs.
+\item We can listen to a sample of most of the songs directly through the website (Spotify does not have a sample for every song).
+\end{itemize}
+
+\newpage
+\section{Answers}
+\textit{What's the answer to your question(s)? What's a conclusion the user can draw that would have been harder to see with a lesser vis?}
+\newline
+\par To answer our questions, we can in fact observe several musical trends throughout 2017. Each continent seems to have its own taste in Music: Asian countries listen a lot to popular world and tend to listen to popular music longer than the rest of the world. North America tends to listen to American rap artists and South America listens Hispanic music culture. It was surprising to me that the most popular song in the United States was often not the same as the most popular song in other countries around the world. The only time when most of the world had the same most streamed song was when an extremely popular song was released.
+
+The Hexmap is very intuitive and it is easy to read the top song in each country for a selected date. We can see the popularity of Shape of You and Despacito all around the world. It is also easy to see the detail per country by just clicking on the country. With a lesser vis such as a top chart per country, it would be much harder to compare trends as we would have to check every country in order to do a continent analysis and make similar conclusions instead of a quick look on the Hexmap map. It would also be difficult to compare two countries in different continents like the US and France as we showed in our presentation. The map allows us to look at the two in a very short amount of time and compare their top songs.
+
+\section{Class content}
+\textit{How has the class content informed your design? Also, what do you wish had been taught so that you would have had an easier time doing p2?}
+\newline
+\par The class content has informed our design in several ways. The primary thing is the stress on how everything in the visualization should say something. For instance, we chose to use hexagons for the countries so that they would all be the same size. If we used a normal map, then the countries would be different sizes and our visualization would perceive some sort of ordering to the countries based on their size. This would not be representative of the actual data as we are not trying to rank the countries in any way. We also got shown hexmaps in class and in homework assignments which gave us the idea to use it for our project. In addition, the stress on color in class has caused us to always thing should the colors be qualitative or quantitative when coloring data. In this case, we used a qualitative data scheme to color the different continents.
+\par We felt that we were prepared for project 2 and that the course was laid out well. It may have been useful to start react earlier, but given the length of the course it is hard to make this possible. In addition, it would be cool to see some more examples of sample code for cool and creative visualizations that were made using React and d3.
+
+\end{document}
